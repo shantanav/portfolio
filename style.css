@@ -43,7 +43,7 @@ li a:hover {
 main {
     height: 100%;
     margin-left: 200px;
-    background-color: gray;
+    background-color: #e0e0e0;
     position: fixed;
     width: 100%;
 }
