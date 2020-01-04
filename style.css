@@ -27,7 +27,7 @@ li a {
     padding: 20px;
     text-decoration: none;
     text-align: center;
-    font-family: "Fira Code";
+    font-family: "Helvetica", sans-serif;
     font-weight: bold;
     font-size: 25px;
     transition: 1s;
@@ -36,8 +36,8 @@ li a {
 li a:hover {
     background-color: #c91a1a;
     color: white;
-    transition: 0.5s;
     padding: 30px 20px;
+    transition: 0.5s;
 }
 
 main {
@@ -50,5 +50,5 @@ main {
 
 main h1, p {
     padding: 5px;
-    font-family: "Fira Code";
+    font-family: "Helvetica", sans-serif;
 }
