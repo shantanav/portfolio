@@ -14,6 +14,7 @@ nav {
 
 nav ul {
     list-style-type: none;
+    padding-top: 100%;
 }
 
 nav li a {
@@ -40,25 +41,48 @@ main {
     height: 100%;
     position: absolute;
     width: 100%;
-    z-index: -1;
 }
 
 main section {
-    margin: 0 0 0 12%;
+    margin-left: 12%;
     height: 100%;
     width: 88%;
 }
 
 #about {
     background-image: url("./images/background-placeholder.jpeg");
-    background-size: 100% auto;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #about h1 {
     font-size: 100px;
     font-family: "Helvetica", sans-serif;
     color: white;
-    text-align: center;
+    text-align: left;
     text-shadow: 5px 5px black;
-    padding-top: 300px;
+    padding-top: 15%;
+    padding-left: 50px;
+}
+
+#about p {
+    font-size: 30px;
+    font-family: "Helvetica", sans-serif;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px black;
+    padding-left: 50px;
+    padding-right: 50%;
+}
+
+#portrait {
+    display: inline-block;
+    border: 3px solid #c91a1a;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    left: 75%;
+    bottom: 25%;
+    background-image: url("./images/portrait-placeholder.png");
+    background-size: cover;
 }
