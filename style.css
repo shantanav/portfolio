@@ -5,10 +5,9 @@
 }
 
 nav {
+    background-color: #1c1c1c;
     height: 100%;
-    background-image: url("./images/black-red-try2.png");
-    background-size: 100% 100%;
-    width: 12%;
+    width: 15em;
     position: fixed;
     border-right: 3px solid #c91a1a;
     z-index: 1;
@@ -16,7 +15,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding-top: 100%;
+    padding-top: 15em;
 }
 
 nav li a {
@@ -46,20 +45,18 @@ main {
 }
 
 main section {
-    margin-left: 12%;
+    margin-left: 15em;
     height: 100%;
-    width: 88%;
+    width: auto;
 }
 
 #about {
-    background-image: url("./images/main-bg.png");
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-color: gray;
 }
 
 #about article {
     padding: 50px;
-    padding-top: 15%;
+    padding-top: 15em;
     padding-right: 35%;
     display: inline-block;
     color: white;
@@ -85,10 +82,67 @@ main section {
 #portrait {
     border: 3px solid #c91a1a;
     position: absolute;
-    height: 60%;
-    width: 25%;
-    left: 70%;
-    bottom: 20%;
-    background-image: url("./images/portrait-placeholder.png");
-    background-size: cover;
+    height: 40em;
+    width: 30em;
+    top: 9em;
+    left: 85em;
+    background-color: white;
+}
+
+#projects ul {
+    list-style-type: none;
+    height: 100%;
+}
+
+.project {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 20%;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        height: 10%;
+        width: 100%;
+    }
+    nav ul {
+        padding-top: 0.5em;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        font-size: 3em;
+    }
+    nav li a:hover {
+        padding: 20px 20px;
+    }
+    main section {
+        margin-left: 0;
+        width: 120%;
+        height: auto;
+    }
+    #about article {
+        padding-right: 2em;
+        min-width: 300px;
+        text-align: center;
+    }
+    #about h1 {
+        font-size: 10em;
+    }
+    #subtext {
+        font-size: 8em;
+    }
+    #description {
+        font-size: 4em;
+    }
+    #portrait {
+        position: relative;
+        left: 0;
+        margin: auto;
+    }
 }
