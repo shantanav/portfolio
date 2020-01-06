@@ -38,8 +38,6 @@ nav li a:hover {
 
 main {
     height: 100%;
-    background-image: url("./images/background-placeholder.jpeg");
-    background-size: 100% auto;
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -49,6 +47,11 @@ main section {
     margin: 0 0 0 12%;
     height: 100%;
     width: 88%;
+}
+
+#about {
+    background-image: url("./images/background-placeholder.jpeg");
+    background-size: 100% auto;
 }
 
 #about h1 {
