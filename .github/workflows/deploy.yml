@@ -10,9 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy website
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "14.15"
+
+      - name: Install and build
         run: |
           npm install
-          npm run deploy
+          npm run build
+          cp CNAME ./build
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          build_dir: build
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
