@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Deploy website
         run: |
+          npm install
           npm run build
           cp CNAME ./build
           gh-pages -d build
