@@ -9,7 +9,13 @@ class Education extends React.Component {
     render() {
         return (
             <section id="education">
-                <h1>Education</h1>
+                <div>
+                    <img id="logo" 
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rochester_Institute_of_Technology_seal.svg/1024px-Rochester_Institute_of_Technology_seal.svg.png" 
+                        alt="RIT Logo"/>
+                    <h1>Rochester Institute of Technology</h1>
+                    <h4>Bachelor of Science in Software Engineering</h4>
+                </div>
             </section>
         )
     }
