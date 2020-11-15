@@ -1,0 +1,10 @@
+#projects ul {
+    list-style-type: none;
+    height: 100%;
+}
+
+.project {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 20%;
+}

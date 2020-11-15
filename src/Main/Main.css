@@ -1,0 +1,11 @@
+main {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+main section {
+    margin-left: 12em;
+    margin-bottom: 0;
+    height: 100%;
+}
