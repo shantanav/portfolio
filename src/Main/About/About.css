@@ -1,0 +1,30 @@
+#about {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about article {
+    display: inline-block;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    padding: 0 3em;
+}
+
+#about h1 {
+    font-size: 100px;
+    text-shadow: 5px 5px black;
+}
+
+#subtext {
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+
+#description {
+    font-size: 25px;
+    padding-top: 5px;
+    text-shadow: 1px 1px black;
+}
