@@ -9,3 +9,9 @@ main section {
     margin-bottom: 0;
     height: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+    main section {
+        margin: 0 auto;
+    }
+}

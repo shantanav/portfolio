@@ -1,5 +1,6 @@
 import React from 'react'
 import './Education.css'
+import rit_logo from './images/RIT_seal.png'
 
 class Education extends React.Component {
     constructor(props) {
@@ -10,11 +11,9 @@ class Education extends React.Component {
         return (
             <section id="education">
                 <div>
-                    <img id="logo" 
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rochester_Institute_of_Technology_seal.svg/1024px-Rochester_Institute_of_Technology_seal.svg.png" 
-                        alt="RIT Logo"/>
-                    <h1>Rochester Institute of Technology</h1>
-                    <h4>Bachelor of Science in Software Engineering</h4>
+                    <h1 id="header">Education</h1>
+                    <img id="logo" src={rit_logo} alt="RIT Logo" />
+                    <h1 id="degree">Bachelor of Science in Software Engineering</h1>
                 </div>
             </section>
         )
