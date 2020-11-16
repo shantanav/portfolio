@@ -1,5 +1,9 @@
 #about {
-    background-color: gray;
+    background-image: url("./images/ritchie.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-position-x: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
