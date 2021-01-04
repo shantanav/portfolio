@@ -31,10 +31,6 @@ nav {
     text-shadow: none;
 }
 
-.active {
-    color: red;
-}
-
 @media only screen and (max-width: 1000px) {
     nav {
         display: none;
